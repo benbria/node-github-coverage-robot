@@ -1,0 +1,22 @@
+{
+  "name": "github-coverage-robot",
+  "version": "1.0.0",
+  "description": "Create code coverage status and comment on code coverage in PRs.",
+  "author": "Jason Walton <dev@lucid.thedreaming.org> (https://github.com/jwalton)",
+  "bin": {
+    "github-coverage-robot": "./bin/command"
+  },
+  "scripts": {
+    "prepublish": "coffee -c -o lib src"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.25",
+    "github": "^0.2.4",
+    "knox": "^0.9.2",
+    "yargs": "^3.8.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.2"
+  }
+}

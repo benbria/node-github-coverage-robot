@@ -6,6 +6,10 @@
   "bin": {
     "github-coverage-robot": "./bin/command"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benbria/node-github-coverage-robot"
+  },
   "scripts": {
     "prepublish": "coffee -c -o lib src"
   },
